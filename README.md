@@ -13,7 +13,7 @@ In the beginning, the enemies slide towards the middle of the screen and move ho
 - **Dependency Injection** (examples in classes: *PlayerHealth*, *Enemy* - but there are a lot of them in the project),
 - **Obsever Pattern** (examples in classes: *Enemy* - *EnemyWaveMovement*, *CheckEnemy* - *WaveManager*),
 - **Inheritance** (example: ScorableEntety, Enemy, UfoHealth),
-- **Interfaces** (example: ),
+- **Interfaces** (example: IDemageble, IGameObjectPooled),
 - **Config files (Scriptable Objects)** (examples in classes: *ShipSettings*, *ProjectileConfig*),
 - **Object Pooling** (class: *GameObjectPool*),
 - **Serialized saving system** (class: *SaveSystem*),
